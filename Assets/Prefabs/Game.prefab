@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1424470590315972}
+  m_IsPrefabParent: 1
+--- !u!1 &1424470590315972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4418497438871652}
+  - component: {fileID: 114086212489702982}
+  - component: {fileID: 114704355555304612}
+  - component: {fileID: 114157391935259690}
+  - component: {fileID: 114305929081739394}
+  - component: {fileID: 114074437571308006}
+  m_Layer: 0
+  m_Name: Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4418497438871652
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1424470590315972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 398.10742, y: 272.62543, z: -2.375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114074437571308006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1424470590315972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfa33af279e06445ae08e3366075933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SetPanel: {fileID: 0}
+  BgMusicSlider: {fileID: 0}
+  SoundSlider: {fileID: 0}
+--- !u!114 &114086212489702982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1424470590315972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ccffb5381c53f43bf094e1b6be6dce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClickButtonClip: {fileID: 8300000, guid: 11b8bc704347b4140b9955b38a8e1497, type: 3}
+--- !u!114 &114157391935259690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1424470590315972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b42c05b68b65b042b545abb6f39e947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114305929081739394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1424470590315972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad72239f1f00e643abed84df9d7884e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShopPanel: {fileID: 0}
+  MoneyShowText: {fileID: 0}
+  akPriceText: {fileID: 0}
+  mp5PriceText: {fileID: 0}
+  m9PriceText: {fileID: 0}
+  m16PriceText: {fileID: 0}
+  mk12PriceText: {fileID: 0}
+  hintPanel: {fileID: 0}
+--- !u!114 &114704355555304612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1424470590315972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f585e7f3fd072b84b8c7f6c03777ecd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIAS: {fileID: 0}
+  hintPanel: {fileID: 0}
